@@ -1,4 +1,4 @@
-# [2018-08-09] Auto-generated file, do not edit
+# [2018-08-13] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
@@ -11,8 +11,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs libs symlinks from 'vendor/app'
 PRODUCT_PACKAGES += \
-    libimsmedia_jni_64.so \
-    libimscamera_jni_64.so
+    libimscamera_jni_64.so \
+    libimsmedia_jni_64.so
 
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \

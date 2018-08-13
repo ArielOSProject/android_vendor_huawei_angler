@@ -1,4 +1,4 @@
-# [2018-08-09] Auto-generated file, do not edit
+# [2018-08-13] Auto-generated file, do not edit
 
 TARGET_BOARD_INFO_FILE := vendor/huawei/angler/vendor-board-info.txt
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4

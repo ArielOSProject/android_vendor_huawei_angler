@@ -1,4 +1,4 @@
-# [2018-08-09] Auto-generated file, do not edit
+# [2018-08-13] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ssr_setup:$(TARGET_COPY_OUT_SYSTEM)/bin/ssr_setup:huawei \
@@ -671,7 +671,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/xbin/wlutil:$(TARGET_COPY_OUT_VENDOR)/xbin/wlutil:huawei
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:huawei \
     vendor/huawei/angler/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:huawei \
     vendor/huawei/angler/proprietary/lib64/libManufacture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libManufacture.so:huawei
 
