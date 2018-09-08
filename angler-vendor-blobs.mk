@@ -1,4 +1,4 @@
-# [2018-08-13] Auto-generated file, do not edit
+# [2018-09-08] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ssr_setup:$(TARGET_COPY_OUT_SYSTEM)/bin/ssr_setup:huawei \

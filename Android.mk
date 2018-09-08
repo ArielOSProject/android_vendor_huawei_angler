@@ -1,4 +1,4 @@
-# [2018-08-13] Auto-generated file, do not edit
+# [2018-09-08] Auto-generated file, do not edit
 
 LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),angler)
