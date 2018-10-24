@@ -1,4 +1,4 @@
-# [2018-09-08] Auto-generated file, do not edit
+# [2018-10-24] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
