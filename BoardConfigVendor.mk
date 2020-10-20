@@ -1,8 +1,10 @@
-# [2018-08-09] Auto-generated file, do not edit
+# [2020-10-20] Auto-generated file, do not edit
 
 TARGET_BOARD_INFO_FILE := vendor/huawei/angler/vendor-board-info.txt
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_VENDORIMAGE_PARTITION_SIZE := 209715200
+ifneq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
+  BOARD_VENDORIMAGE_PARTITION_SIZE := 209715200
+endif
 # Bypass location API missing dependencies AOSP compilation problem
 # Target shared libs are included as pre-build from factory image
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE :=

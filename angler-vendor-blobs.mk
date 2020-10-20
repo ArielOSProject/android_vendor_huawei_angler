@@ -1,4 +1,4 @@
-# [2018-08-09] Auto-generated file, do not edit
+# [2020-10-20] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ssr_setup:$(TARGET_COPY_OUT_SYSTEM)/bin/ssr_setup:huawei \
@@ -10,12 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-angler.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-angler.xml:huawei \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml:huawei \
     vendor/huawei/angler/proprietary/etc/sysconfig/angler_common.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/angler_common.xml:huawei \
-    vendor/huawei/angler/proprietary/lib64/hw/gps.msm8994.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.msm8994.so:huawei \
-    vendor/huawei/angler/proprietary/lib64/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfilterpack_facedetect.so:huawei \
-    vendor/huawei/angler/proprietary/lib64/libgps.utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgps.utils.so:huawei \
-    vendor/huawei/angler/proprietary/lib64/libloc_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_core.so:huawei \
-    vendor/huawei/angler/proprietary/lib64/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_eng.so:huawei \
-    vendor/huawei/angler/proprietary/lib64/libManufacture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libManufacture.so:huawei \
     vendor/huawei/angler/proprietary/lib/hw/gps.msm8994.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.msm8994.so:huawei \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so:huawei \
     vendor/huawei/angler/proprietary/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so:huawei \
@@ -24,13 +18,19 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib/libloc_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_core.so:huawei \
     vendor/huawei/angler/proprietary/lib/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_eng.so:huawei \
     vendor/huawei/angler/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-qcamera.so:huawei \
+    vendor/huawei/angler/proprietary/lib64/hw/gps.msm8994.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.msm8994.so:huawei \
+    vendor/huawei/angler/proprietary/lib64/libManufacture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libManufacture.so:huawei \
+    vendor/huawei/angler/proprietary/lib64/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfilterpack_facedetect.so:huawei \
+    vendor/huawei/angler/proprietary/lib64/libgps.utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgps.utils.so:huawei \
+    vendor/huawei/angler/proprietary/lib64/libloc_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_core.so:huawei \
+    vendor/huawei/angler/proprietary/lib64/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_eng.so:huawei \
     vendor/huawei/angler/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon:huawei \
+    vendor/huawei/angler/vendor/bin/InputEventFind:$(TARGET_COPY_OUT_VENDOR)/bin/InputEventFind:huawei \
     vendor/huawei/angler/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd:huawei \
     vendor/huawei/angler/vendor/bin/diag_klog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_klog:huawei \
     vendor/huawei/angler/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog:huawei \
     vendor/huawei/angler/vendor/bin/diag_test_server:$(TARGET_COPY_OUT_VENDOR)/bin/diag_test_server:huawei \
     vendor/huawei/angler/vendor/bin/dsm_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/dsm_ctrl:huawei \
-    vendor/huawei/angler/vendor/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep:huawei \
     vendor/huawei/angler/vendor/bin/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd:huawei \
     vendor/huawei/angler/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:huawei \
     vendor/huawei/angler/vendor/bin/hw/android.hardware.cas@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.0-service:huawei \
@@ -41,11 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service:huawei \
     vendor/huawei/angler/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild:huawei \
     vendor/huawei/angler/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant:huawei \
+    vendor/huawei/angler/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon:huawei \
     vendor/huawei/angler/vendor/bin/imscmservice:$(TARGET_COPY_OUT_VENDOR)/bin/imscmservice:huawei \
     vendor/huawei/angler/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon:huawei \
     vendor/huawei/angler/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon:huawei \
-    vendor/huawei/angler/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon:huawei \
-    vendor/huawei/angler/vendor/bin/InputEventFind:$(TARGET_COPY_OUT_VENDOR)/bin/InputEventFind:huawei \
     vendor/huawei/angler/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util:huawei \
     vendor/huawei/angler/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher:huawei \
     vendor/huawei/angler/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon:huawei \
@@ -68,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/bin/sound_trigger_test:$(TARGET_COPY_OUT_VENDOR)/bin/sound_trigger_test:huawei \
     vendor/huawei/angler/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine:huawei \
     vendor/huawei/angler/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon:huawei \
-    vendor/huawei/angler/vendor/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor:huawei \
     vendor/huawei/angler/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice:huawei \
     vendor/huawei/angler/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager:huawei \
     vendor/huawei/angler/vendor/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb:huawei \
@@ -105,8 +103,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/etc/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile0.conf:huawei \
     vendor/huawei/angler/vendor/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:huawei \
     vendor/huawei/angler/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf:huawei \
-    vendor/huawei/angler/vendor/etc/seccomp_policy/configstore@1.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.0.policy:huawei \
     vendor/huawei/angler/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config:huawei \
+    vendor/huawei/angler/vendor/etc/seccomp_policy/configstore@1.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.0.policy:huawei \
+    vendor/huawei/angler/vendor/firmware/BCM4358A3_RFSW.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4358A3_RFSW.hcd:huawei \
     vendor/huawei/angler/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw:huawei \
     vendor/huawei/angler/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw:huawei \
     vendor/huawei/angler/vendor/firmware/activity.napp:$(TARGET_COPY_OUT_VENDOR)/firmware/activity.napp:huawei \
@@ -129,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/firmware/adsp.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b16:huawei \
     vendor/huawei/angler/vendor/firmware/adsp.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b17:huawei \
     vendor/huawei/angler/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt:huawei \
-    vendor/huawei/angler/vendor/firmware/BCM4358A3_RFSW.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4358A3_RFSW.hcd:huawei \
     vendor/huawei/angler/vendor/firmware/cpe.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe.b02:huawei \
     vendor/huawei/angler/vendor/firmware/cpe.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe.b04:huawei \
     vendor/huawei/angler/vendor/firmware/cpe.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe.b05:huawei \
@@ -156,8 +154,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/firmware/fingerpr.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerpr.b02:huawei \
     vendor/huawei/angler/vendor/firmware/fingerpr.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerpr.b03:huawei \
     vendor/huawei/angler/vendor/firmware/fingerpr.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerpr.mdt:huawei \
-    vendor/huawei/angler/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin:huawei \
     vendor/huawei/angler/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin:huawei \
+    vendor/huawei/angler/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin:huawei \
     vendor/huawei/angler/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw:huawei \
     vendor/huawei/angler/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw:huawei \
     vendor/huawei/angler/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so:huawei \
@@ -176,190 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02:huawei \
     vendor/huawei/angler/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03:huawei \
     vendor/huawei/angler/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt:huawei \
-    vendor/huawei/angler/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so:huawei \
-    vendor/huawei/angler/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/activity_recognition.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.angler.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.contexthub@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.contexthub@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/audio.primary.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/context_hub.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/context_hub.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/fingerprint.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.angler.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/gatekeeper.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/gralloc.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/hwcomposer.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/keystore.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/memtrack.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/nfc_nci.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.angler.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/sensors.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.angler.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/sound_trigger.primary.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/thermal.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.angler.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/tof.vl6180.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/tof.vl6180.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so:huawei \
-    vendor/huawei/angler/vendor/lib64/hw/vulkan.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8994.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbmapper.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libcallutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcallutils.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libhwgetnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwgetnv.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwminijail.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libhwnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwnv.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libhwsarcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwsarcontrol.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsrcscmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmclient.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsrcscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmservice.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsrcscm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscm.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imss.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libkmcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmcrypto.so:huawei \
-    vendor/huawei/angler/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so:huawei \
-    vendor/huawei/angler/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so:huawei \
-    vendor/huawei/angler/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so:huawei \
-    vendor/huawei/angler/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libminijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminijail_vendor.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmm-abl-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-abl-oem.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmm-abl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-abl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmm-als.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-als.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmmcamera2_sensor_debug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_sensor_debug.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqmi_oem_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_oem_api.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-rcsimssjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsimssjni.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsjni.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so:huawei \
-    vendor/huawei/angler/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so:huawei \
-    vendor/huawei/angler/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so:huawei \
-    vendor/huawei/angler/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so:huawei \
-    vendor/huawei/angler/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcommon.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpdaemoninterface.so:huawei \
-    vendor/huawei/angler/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscale.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libselinux_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libselinux_vendor.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTimeService.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoice-svc.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so:huawei \
-    vendor/huawei/angler/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so:huawei \
-    vendor/huawei/angler/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so:huawei \
-    vendor/huawei/angler/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so:huawei \
-    vendor/huawei/angler/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmix.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libeffectproxy.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libldnhncr.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so:huawei \
-    vendor/huawei/angler/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so:huawei \
     vendor/huawei/angler/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so:huawei \
     vendor/huawei/angler/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so:huawei \
     vendor/huawei/angler/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so:huawei \
@@ -370,8 +184,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so:huawei \
     vendor/huawei/angler/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/activity_recognition.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.angler.so:huawei \
-    vendor/huawei/angler/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/android.hardware.contexthub@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.contexthub@1.0-impl.so:huawei \
@@ -411,13 +225,36 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/hw/tof.vl6180.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/tof.vl6180.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so:huawei \
     vendor/huawei/angler/vendor/lib/hw/vulkan.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-ims-rcscmjni.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsrcscm.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcscm.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsrcscmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcscmclient.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsrcscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcscmservice.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imss.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imss.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvt.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-rcsimssjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsimssjni.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsjni.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpdaemoninterface.so:huawei \
+    vendor/huawei/angler/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so:huawei \
+    vendor/huawei/angler/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so:huawei \
+    vendor/huawei/angler/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so:huawei \
+    vendor/huawei/angler/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so:huawei \
+    vendor/huawei/angler/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so:huawei \
     vendor/huawei/angler/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so:huawei \
     vendor/huawei/angler/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so:huawei \
     vendor/huawei/angler/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so:huawei \
     vendor/huawei/angler/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so:huawei \
+    vendor/huawei/angler/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so:huawei \
     vendor/huawei/angler/vendor/lib/libactuator_lc898212xd_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd_camcorder.so:huawei \
     vendor/huawei/angler/vendor/lib/libactuator_lc898212xd_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd_camera.so:huawei \
-    vendor/huawei/angler/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so:huawei \
     vendor/huawei/angler/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so:huawei \
     vendor/huawei/angler/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so:huawei \
     vendor/huawei/angler/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so:huawei \
@@ -429,10 +266,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail_vendor.so:huawei \
     vendor/huawei/angler/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so:huawei \
     vendor/huawei/angler/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so:huawei \
-    vendor/huawei/angler/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so:huawei \
     vendor/huawei/angler/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so:huawei \
     vendor/huawei/angler/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so:huawei \
-    vendor/huawei/angler/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so:huawei \
     vendor/huawei/angler/vendor/lib/libchromatix_imx179_liteon_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_liteon_common.so:huawei \
     vendor/huawei/angler/vendor/lib/libchromatix_imx179_liteon_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_liteon_cpp_liveshot.so:huawei \
     vendor/huawei/angler/vendor/lib/libchromatix_imx179_liteon_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx179_liteon_cpp_preview.so:huawei \
@@ -474,11 +309,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libchromatix_imx377_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx377_postproc.so:huawei \
     vendor/huawei/angler/vendor/lib/libchromatix_imx377_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx377_preview.so:huawei \
     vendor/huawei/angler/vendor/lib/libchromatix_imx377_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx377_snapshot.so:huawei \
-    vendor/huawei/angler/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so:huawei \
     vendor/huawei/angler/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so:huawei \
+    vendor/huawei/angler/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so:huawei \
     vendor/huawei/angler/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so:huawei \
     vendor/huawei/angler/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so:huawei \
     vendor/huawei/angler/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so:huawei \
     vendor/huawei/angler/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so:huawei \
     vendor/huawei/angler/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so:huawei \
@@ -491,18 +325,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so:huawei \
     vendor/huawei/angler/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so:huawei \
     vendor/huawei/angler/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so:huawei \
     vendor/huawei/angler/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsrcscmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcscmclient.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-ims-rcscmjni.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsrcscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcscmservice.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsrcscm.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcscm.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imss.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imss.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvt.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so:huawei \
     vendor/huawei/angler/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so:huawei \
     vendor/huawei/angler/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so:huawei \
     vendor/huawei/angler/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so:huawei \
@@ -518,13 +341,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libmm-abl-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-abl-oem.so:huawei \
     vendor/huawei/angler/vendor/lib/libmm-abl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-abl.so:huawei \
     vendor/huawei/angler/vendor/lib/libmm-als.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-als.so:huawei \
+    vendor/huawei/angler/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so:huawei \
+    vendor/huawei/angler/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so:huawei \
-    vendor/huawei/angler/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so:huawei \
+    vendor/huawei/angler/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so:huawei \
@@ -587,17 +412,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_isp_wb46.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb46.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_eeprom.so:huawei \
-    vendor/huawei/angler/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so:huawei \
+    vendor/huawei/angler/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_sony_imx179_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx179_eeprom.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmcamera_vpu_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vpu_module.so:huawei \
-    vendor/huawei/angler/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so:huawei \
-    vendor/huawei/angler/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so:huawei \
     vendor/huawei/angler/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so:huawei \
     vendor/huawei/angler/vendor/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so:huawei \
@@ -607,38 +430,29 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so:huawei \
     vendor/huawei/angler/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so:huawei \
     vendor/huawei/angler/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so:huawei \
+    vendor/huawei/angler/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so:huawei \
     vendor/huawei/angler/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so:huawei \
     vendor/huawei/angler/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so:huawei \
     vendor/huawei/angler/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so:huawei \
-    vendor/huawei/angler/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so:huawei \
     vendor/huawei/angler/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so:huawei \
-    vendor/huawei/angler/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so:huawei \
     vendor/huawei/angler/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so:huawei \
-    vendor/huawei/angler/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so:huawei \
+    vendor/huawei/angler/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so:huawei \
     vendor/huawei/angler/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-rcsimssjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsimssjni.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rcsjni.so:huawei \
     vendor/huawei/angler/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so:huawei \
     vendor/huawei/angler/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so:huawei \
     vendor/huawei/angler/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so:huawei \
     vendor/huawei/angler/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so:huawei \
     vendor/huawei/angler/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so:huawei \
-    vendor/huawei/angler/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so:huawei \
-    vendor/huawei/angler/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so:huawei \
-    vendor/huawei/angler/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so:huawei \
     vendor/huawei/angler/vendor/lib/librs.rnr_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs.rnr_downscale.so:huawei \
     vendor/huawei/angler/vendor/lib/librs.rnr_process.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs.rnr_process.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpdaemoninterface.so:huawei \
-    vendor/huawei/angler/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so:huawei \
+    vendor/huawei/angler/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so:huawei \
     vendor/huawei/angler/vendor/lib/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscale.so:huawei \
     vendor/huawei/angler/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so:huawei \
     vendor/huawei/angler/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so:huawei \
     vendor/huawei/angler/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so:huawei \
     vendor/huawei/angler/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so:huawei \
     vendor/huawei/angler/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so:huawei \
-    vendor/huawei/angler/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so:huawei \
     vendor/huawei/angler/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so:huawei \
     vendor/huawei/angler/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so:huawei \
     vendor/huawei/angler/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so:huawei \
@@ -661,17 +475,201 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvoiceprocessing.so:huawei \
     vendor/huawei/angler/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so:huawei \
     vendor/huawei/angler/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so:huawei \
+    vendor/huawei/angler/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so:huawei \
+    vendor/huawei/angler/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/activity_recognition.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.angler.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.contexthub@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.contexthub@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/audio.primary.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/context_hub.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/context_hub.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/fingerprint.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.angler.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/gatekeeper.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/gralloc.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/hwcomposer.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/keystore.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/memtrack.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/nfc_nci.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.angler.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/sensors.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.angler.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/sound_trigger.primary.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/thermal.angler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.angler.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/tof.vl6180.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/tof.vl6180.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so:huawei \
+    vendor/huawei/angler/vendor/lib64/hw/vulkan.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8994.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsrcscm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscm.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsrcscmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmclient.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsrcscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmservice.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imss.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-rcsimssjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsimssjni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-rcsjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rcsjni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcommon.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpdaemoninterface.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTimeService.so:huawei \
+    vendor/huawei/angler/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbmapper.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libcallutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcallutils.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libhwgetnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwgetnv.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwminijail.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libhwnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwnv.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libhwsarcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwsarcontrol.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libkmcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmcrypto.so:huawei \
+    vendor/huawei/angler/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so:huawei \
+    vendor/huawei/angler/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so:huawei \
+    vendor/huawei/angler/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so:huawei \
+    vendor/huawei/angler/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libminijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminijail_vendor.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmm-abl-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-abl-oem.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmm-abl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-abl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmm-als.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-als.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmmcamera2_sensor_debug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_sensor_debug.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqmi_oem_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_oem_api.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so:huawei \
+    vendor/huawei/angler/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so:huawei \
+    vendor/huawei/angler/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so:huawei \
+    vendor/huawei/angler/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so:huawei \
+    vendor/huawei/angler/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscale.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libselinux_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libselinux_vendor.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoice-svc.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so:huawei \
+    vendor/huawei/angler/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so:huawei \
+    vendor/huawei/angler/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so:huawei \
+    vendor/huawei/angler/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmix.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libeffectproxy.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libldnhncr.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so:huawei \
+    vendor/huawei/angler/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so:huawei \
     vendor/huawei/angler/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd:huawei \
     vendor/huawei/angler/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd:huawei \
+    vendor/huawei/angler/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db:huawei \
     vendor/huawei/angler/vendor/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/qcril_database/upgrade/1_version_intro.sql:huawei \
     vendor/huawei/angler/vendor/qcril_database/upgrade/2_db_upgrade.sql:$(TARGET_COPY_OUT_VENDOR)/qcril_database/upgrade/2_db_upgrade.sql:huawei \
     vendor/huawei/angler/vendor/qcril_database/upgrade/3_remove_ecc_999_from_us_and_canada.sql:$(TARGET_COPY_OUT_VENDOR)/qcril_database/upgrade/3_remove_ecc_999_from_us_and_canada.sql:huawei \
     vendor/huawei/angler/vendor/qcril_database/upgrade/4_update_india_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/qcril_database/upgrade/4_update_india_ecc.sql:huawei \
-    vendor/huawei/angler/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db:huawei \
     vendor/huawei/angler/vendor/xbin/wlutil:$(TARGET_COPY_OUT_VENDOR)/xbin/wlutil:huawei
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:huawei \
     vendor/huawei/angler/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so:huawei \
+    vendor/huawei/angler/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so:huawei \
     vendor/huawei/angler/proprietary/lib64/libManufacture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libManufacture.so:huawei
 
